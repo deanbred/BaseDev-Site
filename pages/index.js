@@ -13,7 +13,7 @@ export default function Home() {
         <title>BaseDev Token</title>
         <meta name="description" content="Crypto Token Website" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/logohex.png" />
+        <link rel="icon" href="/logo128.png" />
       </Head>
       <Header />
       <div className="flex min-h-screen flex-col overflow-hidden bg-no-repeat bg-cover bg-center bg-[url('../public/logo_bg.png')]">
