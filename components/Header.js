@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Header() {
   return (
-    <nav className="p-0 z-10 flex flex-row justify-center sticky top-0 bg-gradient-to-r from-[#7ea6b9] to-[#376578] border-b-2 overflow-hidden">
+    <nav className="z-10 flex flex-row justify-center sticky top-0 bg-gradient-to-r from-slate-400 to-slate-800 border-b-2 overflow-hidden">
       <div className="mr-auto">
         <Image src="logohex.png" width={128} height={128} alt="Logo"></Image>
       </div>

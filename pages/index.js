@@ -19,7 +19,7 @@ export default function Home() {
       <div className="flex min-h-screen flex-col overflow-hidden bg-no-repeat bg-cover bg-center bg-[url('../public/logo_bg.png')]">
         <div className="p-4 lg:mr-auto md:mr-auto sm:mr-auto ">
           <button
-            className="p-2  font-semibold bg-[#0af58e] hover:text-white text-[#00010f] rounded-2xl"
+            className="p-2 font-semibold bg-[#0af58e] hover:text-white text-[#00010f] rounded-2xl"
             onClick={async () => window.open("https://app.uniswap.org/")}
           >
             Buy on Uniswap
@@ -30,7 +30,7 @@ export default function Home() {
             <p className="">
               <a
                 href="https://etherscan.io/token/"
-                className="text-sky-800 hover:text-[#0af58e]  font-semibold leading-7"
+                className="text-sky-800 hover:text-[#0af58e] font-semibold leading-7"
               >
                 BaseDev DEX
               </a>{" "}
@@ -41,7 +41,7 @@ export default function Home() {
               Contract:{" "}
               <a
                 href="https://dexscreener.com/base"
-                className="text-sky-800 hover:text-[#0af58e]  font-semibold"
+                className="text-sky-800 hover:text-[#0af58e] font-semibold"
               >
                 Dexscreener
               </a>{" "}
@@ -63,7 +63,7 @@ export default function Home() {
           <div className="p-3 mt-3 mb-3 max-w-3xl bg-stone-200 opacity-90 md:text-base sm:text-base rounded-2xl">
             <a className="" data-theme="light" href="https://twitter.com/">
               Tweets by @
-              <span className="text-[#0af58e]  font-semibold">basedev777</span>
+              <span className="text-sky-800 hover:text-[#0af58e] font-semibold">basedev777</span>
             </a>
             <script
               async
@@ -72,7 +72,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <footer className="text-[8px] text-center">1KEOY</footer>
     </>
   )
 }
