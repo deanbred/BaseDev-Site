@@ -36,7 +36,7 @@ export default function Home() {
               </a>{" "}
             </p>
             <p>New token on the base blockchain</p>
-            <p>Coming Soon!</p>
+            <p>Updates Coming Soon!</p>
             <p className="mt-1">
               Contract:{" "}
               <a
