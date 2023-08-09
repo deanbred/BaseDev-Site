@@ -20,13 +20,13 @@ export default function Home() {
         <div className="p-4 lg:mr-auto md:mr-auto sm:mr-auto ">
           <button
             className="p-2 font-semibold bg-[#0af58e] hover:text-white text-[#00010f] rounded-2xl"
-            onClick={async () => window.open("https://app.uniswap.org/")}
+            onClick={async () => window.open("https://app.rocketswap.cc/exchange/swap")}
           >
-            Buy on Uniswap
+            Buy on RocketSwap
           </button>
         </div>
         <div className="flex flex-col items-center">
-          <div className="p-3 text-center max-w-4xl bg-stone-200 opacity-90 md:text-xl sm:text-base rounded-2xl">
+          <div className="p-3 text-center max-w-4xl bg-stone-300 opacity-90 md:text-xl sm:text-base rounded-2xl">
             <p className="">
               <a
                 href="https://etherscan.io/token/"
@@ -40,10 +40,10 @@ export default function Home() {
             <p className="mt-1">
               Contract:{" "}
               <a
-                href="https://dexscreener.com/base"
+                href="https://basescan.org/address/0x1c823f81e0230cd8762c63e24d953735e0f8d67c"
                 className="text-sky-800 hover:text-[#0af58e] font-semibold"
               >
-                Dexscreener
+                0x1c823F81e0230cd8762c63e24D953735E0F8d67c
               </a>{" "}
             </p>
           </div>
@@ -54,13 +54,13 @@ export default function Home() {
               fgColor="white"
             />
             <SocialIcon
-              url="https://t.me/+pnpZsqXIN3w2MTdh"
+              url="https://t.me/"
               network="telegram"
               fgColor="white"
             />
             <SocialIcon url="" network="discord" fgColor="white" />
           </div>
-          <div className="p-3 mt-1 mb-3 max-w-3xl bg-stone-200 opacity-90 md:text-base sm:text-base rounded-2xl">
+          <div className="p-3 mt-1 mb-3 max-w-3xl bg-stone-300 opacity-90 md:text-base sm:text-base rounded-2xl">
             <a className="" data-theme="light" href="https://twitter.com/">
               Tweets by @
               <span className="text-sky-800 hover:text-[#0af58e] font-semibold">basedev777</span>
