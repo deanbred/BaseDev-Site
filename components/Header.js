@@ -7,7 +7,7 @@ export default function Header() {
       <div className="mr-auto">
         <Image src="logohex.png" width={72} height={72} alt="Logo"></Image>
       </div>
-      <div className=" ml-2 flex flex-col justify-center text-[#0af58e] mr-auto lg:text-5xl md:text-4xl sm:text-xl font-semibold">
+      <div className="ml-2 flex flex-col justify-center text-[#0af58e] mr-auto lg:text-5xl md:text-4xl sm:text-xl font-semibold">
         BaseDev Token
       </div>
       <div className="flex flex-col justify-center">
