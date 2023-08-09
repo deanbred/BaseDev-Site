@@ -60,7 +60,7 @@ export default function Home() {
             />
             <SocialIcon url="" network="discord" fgColor="white" />
           </div>
-          <div className="p-3 mt-3 mb-3 max-w-3xl bg-stone-200 opacity-90 md:text-base sm:text-base rounded-2xl">
+          <div className="p-3 mt-1 mb-3 max-w-3xl bg-stone-200 opacity-90 md:text-base sm:text-base rounded-2xl">
             <a className="" data-theme="light" href="https://twitter.com/">
               Tweets by @
               <span className="text-sky-800 hover:text-[#0af58e] font-semibold">basedev777</span>
