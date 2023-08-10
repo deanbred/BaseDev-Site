@@ -54,7 +54,7 @@ export default function Home() {
               fgColor="white"
             />
             <SocialIcon
-              url="https://t.me/"
+              url="https://t.me/+a8vnELON19hkYzJh"
               network="telegram"
               fgColor="white"
             />
