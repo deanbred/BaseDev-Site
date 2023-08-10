@@ -29,7 +29,7 @@ export default function Home() {
           <div className="p-3 text-center max-w-4xl bg-stone-300 opacity-90 md:text-xl sm:text-base rounded-2xl">
             <p className="">
               <a
-                href="https://etherscan.io/token/"
+                href="https://dexscreener.com/base"
                 className="text-sky-800 hover:text-[#0af58e] font-semibold leading-7"
               >
                 BaseDev DEX
