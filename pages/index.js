@@ -30,7 +30,7 @@ export default function Home() {
           </button>
         </div>
         <div className="flex flex-col items-center">
-          <div className="mt-96 font-kake text-center max-w-4xl bg-transparent md:text-2xl sm:text-base rounded-2xl">
+          <div className="mt-24 flex flex-col items-center font-kake text-center max-w-4xl bg-transparent md:text-2xl sm:text-base rounded-2xl">
             <p className="text-slate-900 hover:text-red-700">
               <a
                 href="https://etherscan.io/token/0x52e8336322c8fd0f99000e80f8c5eb0acd1c9bc3"
@@ -76,16 +76,6 @@ export default function Home() {
           <Image src="meme04.jpg" width={400} height={400} alt="meme" />
           <Image src="meme05.jpg" width={400} height={400} alt="meme" />
           <Image src="meme06.jpg" width={400} height={400} alt="meme" />
-          <Image src="meme07.jpg" width={400} height={400} alt="meme" />
-          <Image src="meme08.jpg" width={400} height={400} alt="meme" />
-          <Image src="meme09.jpg" width={400} height={400} alt="meme" />
-          <Image src="meme10.jpg" width={400} height={400} alt="meme" />
-          <Image src="meme11.jpg" width={400} height={400} alt="meme" />
-          <Image src="meme12.jpg" width={400} height={400} alt="meme" />
-          <Image src="meme13.jpg" width={400} height={400} alt="meme" />
-          <Image src="meme14.jpg" width={400} height={400} alt="meme" />
-          <Image src="meme15.jpg" width={400} height={400} alt="meme" />
-          <Image src="meme16.jpg" width={400} height={400} alt="meme" />
         </div>
         <div className="p-3 mt-2 m-auto text-center max-w-3xl font-kake bg-stone-200 opacity-90 md:text-base sm:text-base rounded-2xl">
           <a
