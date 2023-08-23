@@ -22,7 +22,7 @@ export default function Home() {
             className="p-2 font-kake bg-[#69974f] hover:text-[#b16541] text-[#234afd] rounded-2xl"
             onClick={async () =>
               window.open(
-                "https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x1c823F81e0230cd8762c63e24D953735E0F8d67c"
+                "https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x52e8336322C8fD0f99000e80F8C5EB0acD1C9Bc3"
               )
             }
           >
