@@ -1,8 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home2/gmussyco/public_html/onlyfrens/
+    - export DEPLOYPATH=/home2/gmussyco/public_html/onlyfrens
     - /bin/cp -R out/_next $DEPLOYPATH
     - /bin/cp -R out/fonts $DEPLOYPATH
-
 
