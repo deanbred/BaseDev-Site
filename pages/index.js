@@ -30,19 +30,16 @@ export default function Home() {
           </button>
         </div>
         <div className="flex flex-col items-center">
-          <div className="mb-64 flex flex-col items-center">
-            <audio id="music" controls autoPlay>
-              <source src="lemon_song.mp3" type="audio/mp3" />
-            </audio>
-          </div>
-          <div className="p-1 mt-64 font-kake text-center max-w-4xl bg-transparent md:text-2xl sm:text-base rounded-2xl">
-            <p className="mt-1">
-              Contract:{" "}
-              <a
-                href="https://basescan.org/address/0x1c823f81e0230cd8762c63e24d953735e0f8d67c"
-                className="text-[#234afd] hover:text-[#b16541]"
-              >
-                0x1c823F81e0230cd8762c63e24D953735E0F8d67c
+          <div className="mt-96 font-kake text-center max-w-4xl bg-transparent md:text-2xl sm:text-base rounded-2xl">
+            <p className="text-slate-900 hover:text-red-700">
+              <a href="https://etherscan.io" className="">
+                {" "}
+                Contract
+              </a>{" "}
+            </p>
+            <p className="text-slate-900 hover:text-green-700">
+              <a href="https://etherscan.io" className="">
+                Chart
               </a>{" "}
             </p>
           </div>
@@ -59,6 +56,11 @@ export default function Home() {
             />
           </div>
         </div>
+        <div className="flex flex-col items-center">
+            <audio id="music" controls autoPlay>
+              <source src="lemon_song.mp3" type="audio/mp3" />
+            </audio>
+          </div>
 
         <div className="flex flex-wrap items-center justify-between">
           <Image src="meme00.jpg" width={400} height={400} alt="meme" />
@@ -78,9 +80,8 @@ export default function Home() {
           <Image src="meme14.jpg" width={400} height={400} alt="meme" />
           <Image src="meme15.jpg" width={400} height={400} alt="meme" />
           <Image src="meme16.jpg" width={400} height={400} alt="meme" />
-          <Image src="meme17.jpg" width={400} height={400} alt="meme" />
         </div>
-        <div className="p-3 m-6 text-center max-w-3xl font-kake bg-stone-200 opacity-90 md:text-base sm:text-base rounded-2xl">
+        <div className="p-3 mt-2 m-auto text-center max-w-3xl font-kake bg-stone-200 opacity-90 md:text-base sm:text-base rounded-2xl">
           <a
             className=""
             data-theme="light"
