@@ -4,27 +4,8 @@ deployment:
     - export DEPLOYPATH=/home2/gmussyco/public_html/onlyfrens/
     - /bin/cp -R out/_next $DEPLOYPATH
     - /bin/cp -R out/fonts $DEPLOYPATH
-    - /bin/cp out/404.html $DEPLOYPATH
-    - /bin/cp out/bg.jpg $DEPLOYPATH
     - /bin/cp out/index.html $DEPLOYPATH
-    - /bin/cp out/lemon_song.mp3 $DEPLOYPATH
     - /bin/cp out/logo.png $DEPLOYPATH
-    - /bin/cp out/meme00.jpg $DEPLOYPATH
-    - /bin/cp out/meme01.jpg $DEPLOYPATH
-    - /bin/cp out/meme02.jpg $DEPLOYPATH
-    - /bin/cp out/meme03.jpg $DEPLOYPATH
-    - /bin/cp out/meme04.jpg $DEPLOYPATH
-    - /bin/cp out/meme05.jpg $DEPLOYPATH
-    - /bin/cp out/meme06.jpg $DEPLOYPATH
-    - /bin/cp out/meme07.jpg $DEPLOYPATH
-    - /bin/cp out/meme08.jpg $DEPLOYPATH
-    - /bin/cp out/meme09.jpg $DEPLOYPATH
-    - /bin/cp out/meme10.jpg $DEPLOYPATH
-    - /bin/cp out/meme11.jpg $DEPLOYPATH
-    - /bin/cp out/meme12.jpg $DEPLOYPATH
-    - /bin/cp out/meme13.jpg $DEPLOYPATH
-    - /bin/cp out/meme14.jpg $DEPLOYPATH
-    - /bin/cp out/meme15.jpg $DEPLOYPATH
-    - /bin/cp out/meme15.jpg $DEPLOYPATH
+
 
 
