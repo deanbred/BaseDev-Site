@@ -5,7 +5,7 @@ import Image from "next/image"
 
 export default function Header() {
   return (
-    <nav className="z-10 font-kake flex flex-row justify-center sticky top-0 bg-gradient-to-r from-slate-200 to-slate-500 border-b-2 overflow-hidden">
+    <nav className="z-10 font-kake flex flex-row justify-center sticky top-0 bg-gradient-to-r from-slate-200 to-[#6caffe] border-b-2 overflow-hidden">
       <div className="p-2 mr-auto">
         <Image src="logo.png" width={72} height={72} alt="Logo"></Image>
       </div>

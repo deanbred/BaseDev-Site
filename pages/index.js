@@ -147,15 +147,23 @@ export default function Home() {
         </Menu>
         <main id="page-wrap">
           <div className="flex min-h-screen flex-col overflow-hidden bg-no-repeat bg-contain bg-[url('../public/5G.jpg')]">
-            <div className="p-3 mt-32 m-auto text-center max-w-3xl font-kake bg-stone-100 opacity-70 md:text-base sm:text-base rounded-2xl">
-              <p className="">
+            <div className="p-3 mt-24 m-auto text-center max-w-3xl font-kake bg-stone-100 opacity-70 md:text-base sm:text-base rounded-2xl">
+              <p className="lg:text-3xl md:text-2xl sm:text-xl text-base">
                 The digital currency we didn’t know we needed. $ONLYFRENS is the
                 social currency of crypto, see a FREN, hug a FREN, send them
                 some $ONLYFRENS. See a bad bitch? She’s probably on OnlyFrens.
               </p>
             </div>
 
-            <div className="mt-48 m-auto">
+            <div className="p-3 mt-4 m-auto text-center max-w-3xl font-kake bg-stone-100 opacity-70 md:text-base sm:text-base rounded-2xl">
+              <p className="lg:text-3xl md:text-2xl sm:text-xl text-base">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam.
+              </p>
+            </div>
+
+            <div className="mt-24 m-auto">
               <div className="p-1 m-2 text-center max-w-3xl font-kake bg-stone-200 opacity-80 md:text-base sm:text-base rounded-2xl">
                 <div className="flex flex-row items-center justify-center space-x-6">
                   <SocialIcon
