@@ -1,12 +1,12 @@
-/* import Image from "next/image"
+import Image from "next/image"
 import styles from "@/styles/Home.module.css"
 import ContractCalls from "@/components/ContractCalls"
 import ReactDOM from "react-dom"
-import BurgerMenu from "react-burger-menu" */
+import BurgerMenu from "react-burger-menu"
 import Head from "next/head"
 import Header from "@/components/Header"
 import { SocialIcon } from "react-social-icons"
-import { PhotoAlbum, LayoutType } from "react-photo-album"
+import { PhotoAlbum } from "react-photo-album"
 
 import React, { Component } from "react"
 import { pushRotate as Menu } from "react-burger-menu"
@@ -87,7 +87,7 @@ export default function Home() {
           <a
             id="contract"
             className="menu-item text-[#69974f] hover:text-[#b16541]"
-            href="https://etherscan.io/token/0x52e8336322c8fd0f99000e80f8c5eb0acd1c9bc3"
+            href="https://etherscan.io/token/0x5Cdbd3288740BE2E83D8421a18d163c4eB022966"
           >
             Contract
           </a>
@@ -95,7 +95,7 @@ export default function Home() {
           <a
             id="chart"
             className="menu-item text-[#69974f] hover:text-[#b16541]"
-            href="https://dexscreener.com/ethereum/0x52e8336322C8fD0f99000e80F8C5EB0acD1C9Bc3"
+            href="https://dexscreener.com/ethereum/0x5Cdbd3288740BE2E83D8421a18d163c4eB022966"
           >
             Live Chart
           </a>

@@ -10,7 +10,7 @@ export default function Header() {
         <Image src="logo.png" width={72} height={72} alt="Logo"></Image>
       </div>
 
-      <div className="flex flex-col justify-center text-[#234afd] mr-auto lg:text-5xl md:text-4xl sm:text-3xl xs:text-xl">
+      <div className="flex flex-col justify-center text-[#234afd] mr-auto lg:text-5xl md:text-4xl sm:text-3xl text-2xl">
         OnlyFrens
       </div>
 
@@ -19,7 +19,7 @@ export default function Header() {
           className="p-2 bg-[#69974f] hover:text-[#b16541] text-[#234afd] rounded-2xl"
           onClick={async () =>
             window.open(
-              "https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x52e8336322C8fD0f99000e80F8C5EB0acD1C9Bc3"
+              "https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x5Cdbd3288740BE2E83D8421a18d163c4eB022966"
             )
           }
         >
