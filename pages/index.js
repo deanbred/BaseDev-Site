@@ -1,14 +1,11 @@
 import Image from "next/image"
 import styles from "@/styles/Home.module.css"
-import ContractCalls from "@/components/ContractCalls"
-import ReactDOM from "react-dom"
-import BurgerMenu from "react-burger-menu"
 import Head from "next/head"
 import Header from "@/components/Header"
 import { SocialIcon } from "react-social-icons"
-import { PhotoAlbum } from "react-photo-album"
-
-import React, { Component } from "react"
+import "lightbox.js-react/dist/index.css"
+import { SlideshowLightbox, initLightboxJS } from "lightbox.js-react"
+import React, { useEffect, Component } from "react"
 import { pushRotate as Menu } from "react-burger-menu"
 
 const images = [
@@ -17,8 +14,16 @@ const images = [
   { src: "/images/meme02.jpg" },
   { src: "/images/meme03.jpg" },
   { src: "/images/meme04.jpg" },
+  { src: "/images/meme07.jpg" },
+  { src: "/images/meme08.jpg" },
   { src: "/images/meme05.jpg" },
+  { src: "/images/meme10.jpg" },
+  { src: "/images/meme11.jpg" },
+  { src: "/images/meme13.jpg" },
   { src: "/images/meme06.jpg" },
+  { src: "/images/meme14.jpg" },
+  { src: "/images/meme09.jpg" },
+  { src: "/images/meme12.jpg" },
 ]
 
 var style = {
@@ -67,6 +72,12 @@ var style = {
 }
 
 export default function Home() {
+  async function updateUIValues() {}
+
+  useEffect(() => {
+    initLightboxJS("DF8A-D560-5C71-E585", "Individual")
+  }, [])
+
   return (
     <>
       <Head>
@@ -118,18 +129,17 @@ export default function Home() {
         </Menu>
         <main id="page-wrap">
           <div className="flex min-h-screen flex-col overflow-hidden bg-no-repeat bg-contain bg-[url('../public/5G.jpg')]">
-            <div className="p-3 mt-32 m-auto text-center max-w-3xl font-kake bg-stone-200 opacity-70 md:text-base sm:text-base rounded-2xl">
+            <div className="p-3 mt-32 m-auto text-center max-w-3xl font-kake bg-stone-100 opacity-70 md:text-base sm:text-base rounded-2xl">
               <p className="">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur.
+                in reprehenderit in voluptate velit.
               </p>
             </div>
 
-            <div className="mt-64 m-auto">
+            <div className="mt-48 m-auto">
               <audio id="music" controls autoPlay>
                 <source src="lemon_song.mp3" type="audio/mp3" />
               </audio>
@@ -173,15 +183,24 @@ export default function Home() {
               ></script>
             </div>
 
-            <div className="">
-              <PhotoAlbum
-                renderRowContainer={({ rowContainerProps, children }) => (
-                  <div {...rowContainerProps}>{children}</div>
-                )}
-                layout="masonry"
-                photos={images}
-              />
-            </div>
+            <SlideshowLightbox
+              className="container grid grid-cols-3 gap-1 mx-auto"
+              lightboxIdentifier="lightbox1"
+              framework="next"
+              images={images}
+            >
+              {images.map((image) => (
+                <Image
+                  key={image.src}
+                  src={image.src}
+                  alt={image.alt}
+                  height={500}
+                  width={300}
+                  data-lightboxjs="lightbox1"
+                  quality={80}
+                />
+              ))}
+            </SlideshowLightbox>
           </div>
         </main>
       </div>
