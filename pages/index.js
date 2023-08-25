@@ -122,7 +122,7 @@ export default function Home() {
           <a
             id="tg"
             className="menu-item text-[#69974f] hover:text-[#b16541]"
-            href="https://t.me/"
+            href="https://t.me/+MkzphdJE1u81YzVh"
           >
             Telegram
           </a>
@@ -150,7 +150,7 @@ export default function Home() {
                     fgColor="white"
                   />
                   <SocialIcon
-                    url="https://t.me/+a8vnELON19hkYzJh"
+                    url="https://t.me/+MkzphdJE1u81YzVh"
                     network="telegram"
                     fgColor="white"
                   />
