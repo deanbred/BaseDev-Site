@@ -156,11 +156,7 @@ export default function Home() {
             </div>
 
             <div className="mt-48 m-auto">
-              <audio id="music" controls autoPlay>
-                <source src="lemon_song.mp3" type="audio/mp3" />
-              </audio>
-
-              <div className="p-1 mt-2 m-auto text-center max-w-3xl font-kake bg-stone-200 opacity-80 md:text-base sm:text-base rounded-2xl">
+              <div className="p-1 m-2 text-center max-w-3xl font-kake bg-stone-200 opacity-80 md:text-base sm:text-base rounded-2xl">
                 <div className="flex flex-row items-center justify-center space-x-6">
                   <SocialIcon
                     url="https://twitter.com/Only_Frens_"
@@ -174,8 +170,31 @@ export default function Home() {
                   />
                 </div>
               </div>
+              <audio id="music" controls autoPlay>
+                <source src="lemon_song.mp3" type="audio/mp3" />
+              </audio>
             </div>
 
+            <div className="mx-auto">
+              <SlideshowLightbox
+                className="container grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-1 mx-auto"
+                lightboxIdentifier="lightbox1"
+                framework="next"
+                images={images}
+              >
+                {images.map((image) => (
+                  <Image
+                    key={image.src}
+                    src={image.src}
+                    alt={image.alt}
+                    height={500}
+                    width={300}
+                    data-lightboxjs="lightbox1"
+                    quality={80}
+                  />
+                ))}
+              </SlideshowLightbox>
+            </div>
             <div className="p-3 mt-2 m-auto text-center max-w-3xl font-kake bg-stone-200 opacity-70 md:text-base sm:text-base rounded-2xl">
               <a
                 className=""
@@ -193,25 +212,6 @@ export default function Home() {
                 src="https://platform.twitter.com/widgets.js"
               ></script>
             </div>
-
-            <SlideshowLightbox
-              className="container grid grid-cols-3 gap-1 mx-auto"
-              lightboxIdentifier="lightbox1"
-              framework="next"
-              images={images}
-            >
-              {images.map((image) => (
-                <Image
-                  key={image.src}
-                  src={image.src}
-                  alt={image.alt}
-                  height={500}
-                  width={300}
-                  data-lightboxjs="lightbox1"
-                  quality={80}
-                />
-              ))}
-            </SlideshowLightbox>
           </div>
         </main>
       </div>
