@@ -11,7 +11,7 @@ export default function Header() {
       </div>
 
       <div className="flex flex-col justify-center text-[#b16541] mr-auto lg:text-5xl md:text-4xl sm:text-3xl xs:text-xl">
-        OnlyFrens.tech
+        OnlyFrens
       </div>
 
       <div className="mr-2 flex flex-col justify-center">

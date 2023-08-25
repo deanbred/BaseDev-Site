@@ -97,7 +97,7 @@ export default function Home() {
             className="menu-item text-[#69974f] hover:text-[#b16541]"
             href="https://dexscreener.com/ethereum/0x52e8336322C8fD0f99000e80F8C5EB0acD1C9Bc3"
           >
-            LiveChart
+            Live Chart
           </a>
 
           <a
@@ -118,7 +118,7 @@ export default function Home() {
         </Menu>
         <main id="page-wrap">
           <div className="flex min-h-screen flex-col overflow-hidden bg-no-repeat bg-contain bg-[url('../public/5G.jpg')]">
-            <div className="">
+            <div className="mt-96 m-auto">
               <audio id="music" controls autoPlay>
                 <source src="lemon_song.mp3" type="audio/mp3" />
               </audio>
@@ -155,7 +155,7 @@ export default function Home() {
               ></script>
             </div>
 
-            <div className="mt-96">
+            <div className="">
               <PhotoAlbum
                 renderRowContainer={({ rowContainerProps, children }) => (
                   <div {...rowContainerProps}>{children}</div>
