@@ -175,9 +175,9 @@ export default function Home() {
               </audio>
             </div>
 
-            <div className="mx-auto">
+            <div className="p-1 mx-auto">
               <SlideshowLightbox
-                className="container grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-1 mx-auto"
+                className="container grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-3 mx-auto"
                 lightboxIdentifier="lightbox1"
                 framework="next"
                 images={images}
