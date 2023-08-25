@@ -170,7 +170,7 @@ export default function Home() {
                   />
                 </div>
               </div>
-              <audio id="music" controls autoPlay>
+              <audio className="m-2" id="music" controls autoPlay>
                 <source src="lemon_song.mp3" type="audio/mp3" />
               </audio>
             </div>
