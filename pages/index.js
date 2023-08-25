@@ -195,6 +195,7 @@ export default function Home() {
                 ))}
               </SlideshowLightbox>
             </div>
+
             <div className="p-3 mt-2 m-auto text-center max-w-3xl font-kake bg-stone-200 opacity-70 md:text-base sm:text-base rounded-2xl">
               <a
                 className=""
