@@ -131,11 +131,9 @@ export default function Home() {
           <div className="flex min-h-screen flex-col overflow-hidden bg-no-repeat bg-contain bg-[url('../public/5G.jpg')]">
             <div className="p-3 mt-32 m-auto text-center max-w-3xl font-kake bg-stone-100 opacity-70 md:text-base sm:text-base rounded-2xl">
               <p className="">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit.
+                The digital currency we didn’t know we needed. $ONLYFRENS is the
+                social currency of crypto, see a FREN, hug a FREN, send them
+                some $ONLYFRENS. See a bad bitch? She’s probably on OnlyFrens.
               </p>
             </div>
 
