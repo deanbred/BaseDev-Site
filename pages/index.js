@@ -118,6 +118,17 @@ export default function Home() {
         </Menu>
         <main id="page-wrap">
           <div className="flex min-h-screen flex-col overflow-hidden bg-no-repeat bg-contain bg-[url('../public/5G.jpg')]">
+            <div className="p-3 mt-32 m-auto text-center max-w-3xl font-kake bg-stone-200 opacity-70 md:text-base sm:text-base rounded-2xl">
+              <p className="">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur.
+              </p>
+            </div>
+
             <div className="mt-96 m-auto">
               <audio id="music" controls autoPlay>
                 <source src="lemon_song.mp3" type="audio/mp3" />
@@ -137,7 +148,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="p-3 mt-2 m-auto text-center max-w-3xl font-kake bg-stone-200 opacity-90 md:text-base sm:text-base rounded-2xl">
+            <div className="p-3 mt-2 m-auto text-center max-w-3xl font-kake bg-stone-200 opacity-70 md:text-base sm:text-base rounded-2xl">
               <a
                 className=""
                 data-theme="light"
