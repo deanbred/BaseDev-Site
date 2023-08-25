@@ -10,7 +10,7 @@ export default function Header() {
         <Image src="logo.png" width={72} height={72} alt="Logo"></Image>
       </div>
 
-      <div className="flex flex-col justify-center text-[#b16541] mr-auto lg:text-5xl md:text-4xl sm:text-3xl xs:text-xl">
+      <div className="flex flex-col justify-center text-[#234afd] mr-auto lg:text-5xl md:text-4xl sm:text-3xl xs:text-xl">
         OnlyFrens
       </div>
 

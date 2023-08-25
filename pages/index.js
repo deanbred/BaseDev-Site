@@ -6,7 +6,7 @@ import BurgerMenu from "react-burger-menu" */
 import Head from "next/head"
 import Header from "@/components/Header"
 import { SocialIcon } from "react-social-icons"
-import { PhotoAlbum } from "react-photo-album"
+import { PhotoAlbum, LayoutType } from "react-photo-album"
 
 import React, { Component } from "react"
 import { pushRotate as Menu } from "react-burger-menu"
@@ -129,22 +129,29 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="mt-96 m-auto">
+            <div className="mt-64 m-auto">
               <audio id="music" controls autoPlay>
                 <source src="lemon_song.mp3" type="audio/mp3" />
               </audio>
 
-              <div className="m-3 flex flex-row items-center justify-center space-x-4">
-                <SocialIcon
-                  url="https://twitter.com/Only_Frens_"
-                  network="twitter"
-                  fgColor="white"
-                />
-                <SocialIcon
-                  url="https://t.me/+a8vnELON19hkYzJh"
-                  network="telegram"
-                  fgColor="white"
-                />
+              <div className="p-1 mt-2 m-auto text-center max-w-3xl font-kake bg-stone-200 opacity-80 md:text-base sm:text-base rounded-2xl">
+                <div className="flex flex-row items-center justify-center space-x-6">
+                  <SocialIcon
+                    url="https://twitter.com/Only_Frens_"
+                    network="twitter"
+                    fgColor="white"
+                  />
+                  <SocialIcon
+                    url="https://t.me/+a8vnELON19hkYzJh"
+                    network="telegram"
+                    fgColor="white"
+                  />
+                  <SocialIcon
+                    url="https://discord.com/"
+                    network="discord"
+                    fgColor="white"
+                  />
+                </div>
               </div>
             </div>
 
