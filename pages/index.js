@@ -154,11 +154,6 @@ export default function Home() {
                     network="telegram"
                     fgColor="white"
                   />
-                  <SocialIcon
-                    url="https://discord.com/"
-                    network="discord"
-                    fgColor="white"
-                  />
                 </div>
               </div>
             </div>
