@@ -157,9 +157,7 @@ export default function Home() {
 
             <div className="p-3 mt-4 m-auto text-center max-w-3xl font-kake font-semibold bg-stone-100 opacity-70 md:text-base sm:text-base rounded-2xl">
               <p className="lg:text-3xl md:text-2xl sm:text-xl text-base">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam.
+                Want some new FRENs, anon? Join the Telegram Group or follow on Twitter!
               </p>
             </div>
 
